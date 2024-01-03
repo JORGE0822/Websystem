@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.profile-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 10px;
+    /* Add styles for the profile icon here */
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo-container {
+    margin-top: 0px; 
+    margin-bottom: 0px;/* Prevent the logo from shrinking */
+}
+
+.navigation-container {
+    flex-grow: 1; /* Allow the navigation links to take available space and center them */
+    text-align: center;
+}
+
+.search-container {
+    margin-left: auto; /* Move the search container to the right */
+}
+
+.search-container form {
+    display: flex;
+}
+
+.search-container input {
+    padding: 8px;
+    margin-right: 5px;
+}
+
+.search-container button {
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.recipe-card {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+}
+
+.recipe-card h3 {
+    margin-top: 0;
+}
+
+.recipe-card img {
+    max-width: 100%;
+    height: auto;
+}

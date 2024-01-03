@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.profile-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 10px;
+    /* Add styles for the profile icon here */
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo-container {
+    margin-top: 0px; 
+    margin-bottom: 0px;/* Prevent the logo from shrinking */
+}
+
+.navigation-container {
+    flex-grow: 1; /* Allow the navigation links to take available space and center them */
+    text-align: center;
+}
+
+.search-container {
+    margin-left: auto; /* Move the search container to the right */
+}
+
+.search-container form {
+    display: flex;
+}
+
+.search-container input {
+    padding: 8px;
+    margin-right: 5px;
+}
+
+.search-container button {
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+/* Add a new class for styling the main content */
+.main-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional styles for the form within the main container */
+.main-container form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.main-container label {
+    margin-bottom: 8px;
+}
+
+.main-container input,
+.main-container textarea,
+.main-container button {
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.main-container textarea {
+    resize: vertical;
+}
+
+.main-container button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.main-container button:hover {
+    background-color: #45a049;
+}
